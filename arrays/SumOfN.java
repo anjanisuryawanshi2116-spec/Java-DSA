@@ -7,3 +7,4 @@ class SumOfN {
         System.out.println(sum);
     }
 }
+
