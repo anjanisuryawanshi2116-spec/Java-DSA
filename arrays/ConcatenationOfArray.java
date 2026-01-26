@@ -1,5 +1,5 @@
-class ConcatenationOfArray {
-    public static int[] getConcatenation(int[] nums) {
+class Solution {
+    public int[] getConcatenation(int[] nums) {
         int n = nums.length;
         int[] ans = new int[2 * n];
 
@@ -9,14 +9,4 @@ class ConcatenationOfArray {
         }
         return ans;
     }
-
-    public static void main(String[] args) {
-        int[] nums = {1, 2, 1};
-        int[] result = getConcatenation(nums);
-
-        for (int num : result) {
-            System.out.print(num + " ");
-        }
-    }
 }
-
